@@ -1,0 +1,11 @@
+.container {
+  @apply w-[1280px] mx-auto;
+}
+
+.btn {
+  @apply text-xl px-8 py-4 rounded-2xl border-black border-[0.681818px]  cursor-pointer hover:bg-black hover:text-white;
+}
+
+.btn-booking {
+  @apply text-xl text-white bg-black px-8 py-4 rounded-2xl border-black border-[0.681818px]  cursor-pointer hover:bg-white hover:text-black;
+}

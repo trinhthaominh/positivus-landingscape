@@ -1,1 +1,7 @@
 @import "tailwindcss";
+@import "./style.css";
+/* npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch */
+
+@theme {
+  --font-display: "Space Grotesk", sans-serif;
+}
