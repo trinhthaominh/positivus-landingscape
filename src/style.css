@@ -9,3 +9,11 @@
 .btn-booking {
   @apply text-xl text-white bg-black px-8 py-4 rounded-2xl border-black border-[0.681818px]  cursor-pointer hover:bg-white hover:text-black;
 }
+
+.service {
+  @apply border border-black rounded-[45px] p-[50px] leading-[24px] border-black w-[619px] h-[272px] shadow-[0px_5px_0px_#191a23] grid grid grid-rows-subgrid grid-cols-subgrid;
+}
+
+.service__picture {
+  @apply col-span-1 flex justify-end items-center;
+}
