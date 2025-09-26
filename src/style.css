@@ -10,10 +10,25 @@
   @apply text-xl text-white bg-black px-8 py-4 rounded-2xl border-black border-[0.681818px]  cursor-pointer hover:bg-white hover:text-black;
 }
 
+.heading {
+  @apply bg-[#b9ff66] rounded-[7px] leading-[40px] p-[7px] text-center text-4xl;
+}
+
+.desc {
+  @apply w-[580px] h-[48px] leading-[24px];
+}
+
+.btn-primary {
+  @apply bg-[#191a23] rounded-[8px] text-white text-xl justify-center flex items-center px-5 py-7 transition duration-150 ease-in-out hover:bg-[#b9ff66] hover:text-black hover:cursor-pointer hover:border-black hover:border-[0.681818px];
+}
 .service {
   @apply border border-black rounded-[45px] p-[50px] leading-[24px] border-black w-[619px] h-[272px] shadow-[0px_5px_0px_#191a23] grid grid grid-rows-subgrid grid-cols-subgrid;
 }
 
 .service__picture {
   @apply col-span-1 flex justify-end items-center;
+}
+
+.case-studies {
+  @apply bg-[#191a23] rounded-[45px] text-[#f3f3f3] leading-[24px] m-[1px] p-15 w-[406px] h-[286px];
 }
